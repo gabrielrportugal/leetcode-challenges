@@ -1,7 +1,7 @@
 import { test, describe, expect } from 'vitest'
 import { twoSum } from './two-sum'
 
-describe('[Example 1]', () => {
+describe('[twoSum]', () => {
   test('case 1', () => {
     const nums = [2, 7, 11, 15]
     const target = 9
