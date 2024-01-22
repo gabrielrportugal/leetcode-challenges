@@ -7,9 +7,11 @@
     "@rocketseat/eslint-config": "2.1.0",
     "eslint": "8.56.0",
     "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "1.2.1"
   },
   "scripts": {
-    "two-sum": "tsx --inspect-brk src/two-sum/index.ts"
+    "two-sum": "tsx --inspect-brk src/two-sum/two-sum.ts",
+    "test": "vitest"
   }
 }
