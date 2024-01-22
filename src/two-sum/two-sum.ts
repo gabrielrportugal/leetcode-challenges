@@ -1,3 +1,9 @@
+/**
+ * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+ * @param nums array with numbers
+ * @param target number with values added
+ * @returns number[]
+ */
 export function twoSum(nums: number[], target: number): number[] {
   let result: number[] = []
 
