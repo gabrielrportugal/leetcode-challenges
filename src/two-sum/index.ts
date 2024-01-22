@@ -1,1 +1,1 @@
-console.log("two-sum")
+console.log('two-sum')

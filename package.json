@@ -4,11 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "eslint": "8.56.0",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
-    "scripts": {
-        "two-sum": "tsx watch src/two-sum/index.ts"
-    }
-
+  "scripts": {
+    "two-sum": "tsx --inspect-brk src/two-sum/index.ts"
+  }
 }
