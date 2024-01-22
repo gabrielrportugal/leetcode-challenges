@@ -24,10 +24,11 @@ export function twoSumIndexedArrayV2(nums: number[], target: number): number[] {
   let low = 0
   let high = nums.length - 1
 
-  while (low <= high) {
-    if (nums[low] + nums[high] > target) high--
-    else if (nums[low] + nums[high] < target) low++
-    else return [low + 1, high + 1]
+  while (low < high) {
+    const sum = nums[low] + nums[high]
+    if (sum === target) return [low + 1, high + 1]
+    if (sum > target) high--
+    else low++
   }
 
   return []
