@@ -1,5 +1,8 @@
 import { test, describe, expect } from 'vitest'
-import { twoSumIndexedArray, twoSumIndexedArrayV2 } from './two-sum-array'
+import {
+  twoSumIndexedArray,
+  twoSumIndexedArrayV2,
+} from './two-sum-indexed-array'
 
 describe('[twoSumIndexedArray]', () => {
   test('case 1', () => {

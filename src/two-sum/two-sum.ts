@@ -19,3 +19,23 @@ export function twoSum(nums: number[], target: number): number[] {
 
   return result
 }
+
+// Example with new Map()
+// https://howtodoinjava.com/typescript/maps/
+export function twoSumV2(nums: number[], target: number): number[] {
+  const hashMap = new Map<number, number>()
+
+  for (let i = 0; i < nums.length; i++) {
+    const value = nums[i]
+
+    if (hashMap.has(value)) {
+      const index = hashMap.get(value) || 0
+      return [index, i]
+    }
+
+    const targetDifference = target - nums[i]
+    hashMap.set(targetDifference, i)
+  }
+
+  return []
+}
