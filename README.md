@@ -13,3 +13,6 @@
 
 ### Rotate Image -> 48
 [Rotate Image Description](https://leetcode.com/problems/rotate-image/description/)
+
+### Number of Islands -> 200
+[Number of Islands Description](https://leetcode.com/problems/number-of-islands/description/)
