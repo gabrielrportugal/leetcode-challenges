@@ -19,3 +19,6 @@
 
 ### Group Anagrams -> 49
 [Group Anagrams Description](https://leetcode.com/problems/group-anagrams/description/)
+
+### Trapping Rain Water -> 42
+[Trapping Rain Water Description](https://leetcode.com/problems/trapping-rain-water/description/)
