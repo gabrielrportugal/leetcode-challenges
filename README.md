@@ -22,3 +22,6 @@
 
 ### Trapping Rain Water -> 42
 [Trapping Rain Water Description](https://leetcode.com/problems/trapping-rain-water/description/)
+
+### Longest Consecutive Sequence -> 42
+[Longest Consecutive Sequence Description](https://leetcode.com/problems/longest-consecutive-sequence/description/)
