@@ -25,3 +25,6 @@
 
 ### Longest Consecutive Sequence -> 42
 [Longest Consecutive Sequence Description](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+
+### Binary Search -> 704
+[Binary Search Description](https://leetcode.com/problems/binary-search/description/)
