@@ -16,10 +16,10 @@ export function addTwoNumbers(
   l1: ListNode | null,
   l2: ListNode | null,
 ): ListNode | null {
-  // init our result
+  // init our result -> new List Node with result
   const result = new ListNode()
 
-  let currResultNode = result
+  let currResultNode: ListNode | null = result
   let prevNode = null
 
   while (l1?.val || l2?.val || l1?.val === 0 || l2?.val === 0) {
@@ -29,7 +29,9 @@ export function addTwoNumbers(
     // if there is not a number in the bottom row, make one
     if (!currResultNode) {
       currResultNode = new ListNode(0)
-      prevNode.next = currResultNode
+      if (prevNode) {
+        prevNode.next = currResultNode
+      }
     }
 
     // add those two numbers into the bottom row
@@ -41,11 +43,12 @@ export function addTwoNumbers(
       currResultNode.next = new ListNode(1)
     }
 
-    // set everything to the next column
     prevNode = currResultNode
-    currResultNode = currResultNode.next
-    l1 = l1?.next
-    l2 = l2?.next
+
+    if (currResultNode) currResultNode = currResultNode.next
+
+    l1 = l1?.next || null
+    l2 = l2?.next || null
   }
 
   return result
