@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 import { addTwoNumbers } from './add-two-numbers'
-import { ListNode } from './list-node'
+import { ListNode } from '../../shared'
 
 describe('[addTwoNumbers]', () => {
   test('case 1', () => {
