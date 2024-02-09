@@ -32,6 +32,9 @@
 ### Reverse Linked List -> 206
 [Reverse Linked List Description](https://leetcode.com/problems/reverse-linked-list/description/)
 
+### Invert Binary Tree -> 226
+[Invert Binary Tree Description](https://leetcode.com/problems/invert-binary-tree/)
+
 ### Binary Search -> 704
 [Binary Search Description](https://leetcode.com/problems/binary-search/description/)
 
