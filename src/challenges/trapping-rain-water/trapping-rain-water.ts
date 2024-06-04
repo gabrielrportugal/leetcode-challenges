@@ -5,6 +5,8 @@
  * @return number: waters
  */
 
+import { search } from '../binary-search/binary-search'
+
 export function trapWater(height: number[]): number {
   const n = height.length
   let rightHigher = 0

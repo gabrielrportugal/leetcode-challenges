@@ -5,6 +5,8 @@
  * @param strs string[]
  */
 
+import { search } from '../binary-search'
+
 export function groupAnagrams(strs: string[]): string[][] {
   const hashMap = new Map<string, string[]>()
 
