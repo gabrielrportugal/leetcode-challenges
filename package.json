@@ -2,14 +2,19 @@
   "name": "leetcode-challenges",
   "version": "1.0.0",
   "main": "index.js",
+  "author": {
+    "name": "Gabriel Portugal",
+    "email": "gabrielrportugal@outlook.com",
+    "url": "https://gabrielrportugal.vercel.app/"
+  },
   "license": "MIT",
   "devDependencies": {
-    "@rocketseat/eslint-config": "2.1.0",
-    "@vitest/coverage-v8": "1.2.2",
-    "eslint": "8.56.0",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3",
-    "vitest": "1.2.1"
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@vitest/coverage-v8": "^2.0.4",
+    "eslint": "^9.7.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
   },
   "scripts": {
     "build": "tsc",

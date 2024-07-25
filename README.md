@@ -38,3 +38,5 @@
 ### Binary Search -> 704
 [Binary Search Description](https://leetcode.com/problems/binary-search/description/)
 
+### Reverse String -> 344
+[Reverse String Description](https://leetcode.com/problems/reverse-string/description/)
