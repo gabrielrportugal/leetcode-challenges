@@ -43,3 +43,6 @@
 
 ### Reverse Words In a String 3 -> 557 
 [Reverse Words In a String 3](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
+
+### Contains Duplicates 3 -> 219 
+[Contains Duplicates 3](https://leetcode.com/problems/contains-duplicate-ii/description/)
